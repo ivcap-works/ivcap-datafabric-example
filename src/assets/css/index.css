@@ -1,0 +1,121 @@
+.pi-tb-page {
+  height: 100svh;
+}
+
+h1.navbar-brand {
+  font-size: 2em;
+}
+
+h1.navbar-brand .icon {
+  display: inline-block;
+  vertical-align: middle;
+  height: 1.7em;
+  width: 1.7em;
+}
+
+.pi-td-details-caret {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  border-width: 0;
+}
+
+.pi-tb-spinner {
+  display: block;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 200px; */
+}
+
+.spinner-border-md {}
+
+.spinner-border-lg {
+  --tblr-spinner-width: 2rem;
+  --tblr-spinner-height: 2rem;
+  --tblr-spinner-border-width: 2px;
+}
+
+.spinner-border-xl {
+  --tblr-spinner-width: 3rem;
+  --tblr-spinner-height: 3rem;
+  --tblr-spinner-border-width: 2px;
+}
+
+.pi-tb-img-w-details .pi-tb-container {
+  /* border: 1px gray solid; */
+}
+
+.pi-tb-img-w-details .pi-tb-details {
+  background-color: #fbfcfd;
+}
+
+.pi-tb-resp-columns .pi-tb-column {
+  padding: 8px 8px;
+  /* border: solid 1px blue; */
+}
+
+.pi-tb-resp-columns .pi-tb-item {
+  padding: 4px 8px;
+  /* border: solid 1px red; */
+}
+
+.tb-form-input-access-token {
+  font-size: 8pt;
+}
+
+.pi-tb-datatable-tr-spinner .spinner-border {
+  --tblr-spinner-width: 3rem;
+  --tblr-spinner-height: 3rem;
+  --tblr-spinner-border-width: 3px;
+}
+
+.pi-tb-datatable-tr-empty-card td,
+/* .pi-tb-datatable-tr-detail td, */
+.tb-datagrid-empty {
+  background-color: lightgray;
+}
+
+.pi-tb-datatable-tr-detail {
+  background-color: var(--tblr-bg-surface-tertiary);
+}
+
+.pi-tb-datatable-button {
+  padding: 2px 1rem;
+  font-size: 0.75rem;
+}
+
+.pi-tb-datatable .pi-th-button {
+  width: 1%;
+}
+
+.pi-tb-datagrid:not(:first-child) {
+  border-top: var(--tblr-card-border-width) solid var(--tblr-card-border-color);
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+.pi-tb-sub-title {
+  display: block;
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  font-weight: var(--tblr-font-weight-medium);
+  line-height: 1.0rem;
+}
+
+.pi-tb-model-card .modal-content {
+  box-shadow: 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+}
+
+/* login page */
+.pi-login-error-message-text {
+  padding-left: 0.5em;
+}
+
+/* JSON VIEWER */
+.ivcap-link-value {
+  background-color: #d7ebfb;
+  border-width: 0px;
+}
